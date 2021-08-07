@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+body {
+    font-family: Inter;
+    font-size: 16px;
+}
+
+._155hy52 i {
+    padding: 1px 3px;
+    font-family: Inconsolata, monospace, sans-serif;
+    font-style: normal;
+    font-size: 0.85em;
+    white-space: pre-wrap;
+    border: #E3EDF3 1px solid;
+    color: #c7254e;
+    background: #f9f2f4;
+    border-radius: 2px; 
+}
+
+i {
+    padding: 1px 3px;
+    font-family: Inconsolata, monospace, sans-serif;
+    font-style: normal !important;
+    font-size: 0.85em;
+    white-space: pre-wrap;
+    border: #E3EDF3 1px solid;
+    color: #c7254e;
+    background: #f9f2f4;
+    border-radius: 2px; 
+}
