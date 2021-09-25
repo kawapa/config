@@ -1,0 +1,41 @@
+Download & Install
+--------------------
+- https://www.google.com/chrome/?brand=BNSD&gclid=EAIaIQobChMIpMHnnuOV8wIVeEeRBR1B2QEZEAAYASAAEgIynvD_BwE&gclsrc=aw.ds
+- https://dbeaver.io/download/
+- https://code.visualstudio.com/#alt-downloads
+- https://www.qt.io/offline-installers (SAVE LINK AS...)
+	Qt Creator
+
+tar -xf 
+
+Chrome
+--------------------
+- https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg/related?hl=pl
+- https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk/related
+- https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep?hl=pl
+
+Others
+--------------------
+sudo apt upgrade -y && sudo apt update && sudo apt purge firefox -y && sudo apt install -y g++ git make cmake vim preload dconf-editor mc rhythmbox htop arc-theme keepassxc gnome-shell-extensions && sudo apt remove -y gnome-characters gnome-logs gnome-shell-extension-desktop-icons gnome-shell-extension-ubuntu-dock
+
+alt + f2
+R
+
+docker pull darkmattercoder/qt-build:builder-5.12.10
+make install
+docker cp XXX:/usr/local /home/USER/
+
+Gnome Shell Extensions
+--------------------
+- https://extensions.gnome.org/extension/8/places-status-indicator/
+
+dconf-editor
+--------------------
+- hot corners
+- theme: Arc
+
+Git
+--------------------
+git config --global user.name USER_NAME
+git config --global user.email USER_MAIL
+git config --global core.editor vim
