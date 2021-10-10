@@ -6,8 +6,6 @@ Download & Install
 - https://www.qt.io/offline-installers (SAVE LINK AS...)
 	Qt Creator
 
-tar -xf 
-
 Chrome
 --------------------
 - https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg/related?hl=pl
@@ -21,10 +19,6 @@ sudo apt upgrade -y && sudo apt update && sudo apt purge firefox -y && sudo apt 
 alt + f2
 R
 
-docker pull darkmattercoder/qt-build:builder-5.12.10
-make install
-docker cp XXX:/usr/local /home/USER/
-
 Gnome Shell Extensions
 --------------------
 - https://extensions.gnome.org/extension/8/places-status-indicator/
@@ -33,6 +27,7 @@ dconf-editor
 --------------------
 - hot corners
 - theme: Arc
+- org.gnome.desktop.background -> primary-color -> #000000
 
 Git
 --------------------
