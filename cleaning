@@ -1,4 +1,0 @@
-sudo apt autoremove
-sudo apt clean
-sudo apt-get autoremove --purge
-sudo rm -rf ~/.cache/thumbnails/*
