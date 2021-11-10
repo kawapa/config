@@ -14,7 +14,7 @@ Chrome
 
 Others
 --------------------
-sudo apt upgrade -y && sudo apt update && sudo apt purge firefox -y && sudo apt install -y g++ bleachbit git make glogg cmake docker.io vim preload dconf-editor zim mc rhythmbox htop arc-theme keepassxc libboost-dev gnome-shell-extensions && sudo apt remove -y gnome-characters gnome-logs gnome-shell-extension-desktop-icons gnome-shell-extension-ubuntu-dock
+sudo apt upgrade -y && sudo apt update && sudo apt purge firefox -y && sudo apt install -y g++ bleachbit git make glogg cmake docker.io vim preload dconf-editor zim mc rhythmbox htop arc-theme keepassxc libboost-dev gnome-shell-extensions gnome-shell-pomodoro && sudo apt remove -y gnome-characters gnome-logs gnome-shell-extension-desktop-icons gnome-shell-extension-ubuntu-dock
 
 alt + f2
 R
