@@ -16,6 +16,10 @@ Others
 --------------------
 sudo apt upgrade -y && sudo apt update && sudo apt purge firefox -y && sudo apt install -y g++ bleachbit git make glogg cmake docker.io vim preload dconf-editor zim mc rhythmbox htop arc-theme keepassxc libboost-dev gnome-shell-extensions gnome-shell-pomodoro && sudo apt remove -y gnome-characters gnome-logs gnome-shell-extension-desktop-icons gnome-shell-extension-ubuntu-dock
 
+git clone https://github.com/zeromq/libzmq.git && cd libzmq && cmake -B build && cmake --build build --parallel && sudo cmake --install build --prefix /usr
+
+git clone https://github.com/zeromq/cppzmq.git && cd cppzmq && cmake -B build && cmake --build build --parallel && sudo cmake --install build --prefix /usr
+
 alt + f2
 R
 
