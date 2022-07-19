@@ -1,13 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
 body {
-    font-family: Inter;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-family: Ubuntu;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #172b4d;
+    font-style: normal;
+    line-height: 25px;
 }
 
-._qozh3g .contentLink {
-    text-decoration: auto
+i {
+    padding: 1px 3px;
+    font-family: Inconsolata, monospace, sans-serif;
+    font-style: normal !important;
+    font-size: 0.85em;
+    white-space: pre-wrap;
+    border: #E3EDF3 1px solid;
+    color: #c7254e;
+    background: #f9f2f4;
+    border-radius: 5px;
+}
+
+.innerContentContainer a {
+    color: #0065ff !important;
+}
+
+._zcc5ne {
+    line-height: 25px;
 }
 
 ._6fh8ec .contentLink {
